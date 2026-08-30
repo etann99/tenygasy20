@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="icon" type="image/svg+xml" href="assets/logo-icon.svg">
 <link rel="stylesheet" href="styles.css">
-<script src="header.js" defer></script>
+<script src="main.js" defer></script>
 </head>
 <body>
 
@@ -24,6 +24,8 @@
     <a href="vina.html">Vina</a>
     <a href="hetsika.html">Asa</a>
     <a href="ekipa.html">Ekipa</a>
+    <a href="loharanonkarena.html">Loharanonkarena</a>
+    <a href="blaogy.html">Blaogy</a>
     <a href="fifandraisana.html">Fifandraisana</a>
   </nav>
   <button class="navburger" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Sokafy ny safidy">
@@ -43,8 +45,8 @@
   <div class="blob-wrap"><img class="blob-img blob--hero" src="assets/hero-blob.webp" alt="" /></div>
   <div class="section-inner">
     <div class="hero-copy">
-      <div class="eyebrow">Ny Teny Gasy 2.0 ve ?</div>
-      <h1>“Teny malagasy, tenin-drazantsika, tenintsika, tenin-janatsika”</h1>
+      <div class="eyebrow reveal">Ny Teny Gasy 2.0 ve ?</div>
+      <h1 class="reveal">“Teny malagasy, tenin-drazantsika, tenintsika, tenin-janatsika”</h1>
     </div>
   </div>
 </section>
@@ -52,12 +54,13 @@
 <!-- TENIN'NY FILOHA -->
 <section id="teninny-filoha">
   <div class="section-inner">
-    <div class="eyebrow">Ny tenin'ny filoha</div>
+    <div class="eyebrow reveal">Ny tenin'ny filoha</div>
     <div class="statement-card">
-      <div class="statement-media">
+      <div class="statement-card-inner">
+      <div class="statement-media reveal">
         <img src="assets/filoha/filoha-2026.webp" alt="Filohan'ny Teny Gasy 2.0 miteny am-pihaonana" loading="lazy" />
       </div>
-      <div class="statement-body">
+      <div class="statement-body reveal">
         <span class="quote-mark" aria-hidden="true">&ldquo;</span>
         <div class="statement">
           <p>Raha anontaniana ny Malagasy rehetra dia tsy isalasalana fa samy hilaza daholo fa tenin-drazany ny teny malagasy. Amin'izao fotoana izao anefa, raha vao miditra amina sehatra matihanina sy nentin'ny fandrosoana dia teny mifangaro, "variaminanana" no tsikaritra fa ampiasaina. Mbola tenintsika ihany ve ny teny malagasy? Ny teny frantsay no ampianarana ny ankizy. Amin'ny teny frantsay (sy anglisy) ny ankamaroan'ny boky, horonantsary, sarimiaina, kilalao sy fitaovana maro kirakirain'ny ankizy sy ny tanora. Mbola ho tenin-janatsika ve ny teny malagasy? Raha manohy izao lalana izorantsika izao isika, tsy hanjavona ve ny teny malagasy afaka 50 taona any?</p>
@@ -65,6 +68,79 @@
         </div>
         <p class="signature">— Ando RASOLONDRAIBE (Voniary), Filohan'ny Teny Gasy 2.0</p>
       </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEASERS VERS LES AUTRES PEJY -->
+<section id="teasers">
+  <div class="section-inner">
+    <div class="eyebrow reveal">Indray mitopy maso</div>
+    <div class="nav-cards">
+
+      <a href="vina.html" class="nav-card reveal">
+        <span class="nav-card-inner">
+          <h3>Mombamomba ny vina</h3>
+          <ul class="nav-card-list">
+            <li>Ny tantaranay</li>
+            <li>Ny tanjonay</li>
+          </ul>
+          <span class="nav-card-cta">Jereo ato <span class="arrow" aria-hidden="true">→</span></span>
+        </span>
+      </a>
+
+      <a href="hetsika.html" class="nav-card reveal">
+        <span class="nav-card-inner">
+          <h3>Ny ataon'ny Teny Gasy 2.0</h3>
+          <ul class="nav-card-list nav-card-list--split">
+            <li>Hetsika</li>
+            <li>Loabariandasy sy velakevitra</li>
+            <li>Aty amin'ny aterineto</li>
+            <li>Fifaninanana</li>
+            <li>Adisisika</li>
+            <li>Fiofanana sy atrikasa</li>
+          </ul>
+          <span class="nav-card-cta">Jereo ato <span class="arrow" aria-hidden="true">→</span></span>
+        </span>
+      </a>
+
+      <a href="ekipa.html" class="nav-card reveal">
+        <span class="nav-card-inner">
+          <h3>Ny ekipa</h3>
+          <ul class="nav-card-list">
+            <li>Tambaben'ny ekipa Teny Gasy 2.0</li>
+            <li>Tantara vitsivitsy notsongaina</li>
+          </ul>
+          <span class="nav-card-cta">Jereo ato <span class="arrow" aria-hidden="true">→</span></span>
+        </span>
+      </a>
+
+      <a href="loharanonkarena.html" class="nav-card reveal">
+        <span class="nav-card-inner">
+          <h3>Loharanonkarena</h3>
+          <ul class="nav-card-list">
+            <li>Rakibolana sy rakipahalalana</li>
+            <li>Voambolana sy vaofiteny an-taratasy ary an-jotra</li>
+          </ul>
+          <span class="nav-card-cta">Jereo ato <span class="arrow" aria-hidden="true">→</span></span>
+        </span>
+      </a>
+
+      <a href="blaogy.html" class="nav-card reveal">
+        <span class="nav-card-inner">
+          <h3>Blaogy</h3>
+          <span class="nav-card-cta">Jereo ato <span class="arrow" aria-hidden="true">→</span></span>
+        </span>
+      </a>
+
+      <a href="fifandraisana.html" class="nav-card reveal">
+        <span class="nav-card-inner">
+          <h3>Hifandray?</h3>
+          <span class="nav-card-cta">Jereo ato <span class="arrow" aria-hidden="true">→</span></span>
+        </span>
+      </a>
+
     </div>
   </div>
 </section>
@@ -72,7 +148,6 @@
 <footer>
   <p>© 2026 Teny Gasy 2.0</p>
 </footer>
-
 
 </body>
 </html>
