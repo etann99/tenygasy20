@@ -745,8 +745,8 @@ h1,h2,h3{
   .team-media{ height:220px; }
   .team-media img{ object-position: center 18%; }
   .team-media img[src*="tina"]{ object-position: center 30%; }
-  .team-media img[src*="mose-njo"]{ object-position: center 30%; }
-  .team-media img[src*="joro"]{ object-position: center 32%; }
+  .team-media img[src*="mose-njo"]{ object-position: center 65%; }
+  .team-media img[src*="joro"]{ object-position: center 50%; }
 }
 
 /* ---------- fifandraisana ---------- */
@@ -828,7 +828,8 @@ h1,h2,h3{
 
 footer{
   padding:34px clamp(20px,6vw,90px);
-  border-top:1px solid var(--line);
+  border-top:1px solid transparent;
+  border-image: linear-gradient(90deg, var(--cyan), var(--violet), var(--magenta)) 1;
   display:flex; justify-content:space-between; align-items:center;
   flex-wrap:wrap; gap:12px;
 }
