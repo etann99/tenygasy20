@@ -229,7 +229,7 @@ section{ position:relative; padding: 120px clamp(20px,6vw,90px); }
 .eyebrow::before{
   content:"";
   width:22px; height:1px;
-  background: linear-gradient(90deg, var(--cyan), var(--violet), var(--magenta));
+  background: linear-gradient(90deg, var(--violet), var(--cyan));
 }
 
 h1,h2,h3{
